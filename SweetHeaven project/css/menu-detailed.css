@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.menudetailed{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.nav-link{
+    font-size: 16px !important;
+    color:#1C1C1C !important;
+   
+}
+.nav-link :hover{
+    font-size: 16px;
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+.menu{
+    padding-top: 50px!important;
+}
+/* header */
+
+/* food-card */
+.foodcontainer{
+    padding-top:30px !important;
+    padding-bottom:30px !important;
+    font-family: 'Poppins', sans-serif;
+}
+.food-card{
+    
+    margin-right: 30px!important;
+    margin-left: 30px !important;
+    border-radius:35px;
+    padding-bottom:25px
+}
+/* food-card */
+
+
+/* suggested pairings */
+.food-name{
+    color: #1C1C1C !important;
+    font-size: 24px !important;
+    font-weight: 600;
+}
+.food-price{
+    color: #FF2761; 
+    font-size: 18px;
+    font-weight: 500;
+}
+.description{
+    color: #1C1C1C;
+    font-size: 16px;
+    padding-top: 20px!important;
+}
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#007C00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    
+}
+#outlinebutton{
+    /* padding: 10px; */
+    color:#007C00;
+    border: 1px solid #007C00;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 6px;
+   ;
+}
+/* food details */
+
+
+/* dishes */
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    
+}
+#outlinebutton{
+    /* padding: 10px; */
+    color:#00AA00 ;
+    border: 1px solid #00AA00 ;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 6px;
+   ;
+}
+
+/* .dishes{
+  background-color: #F8F8F8;  
+} */
+
+.card{
+    border-radius: 20px !important;
+
+}
+.card:hover{
+    border-radius: 20px !important;
+    box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
+
+}
+.card-title-1{ 
+    font-size: 14px !important;
+    font-weight: 700;
+    color:#1C1C1C ;
+}
+.card-title-2{ 
+    font-size: 14px !important;
+    color:#FF2761;
+}
+.card-text{
+    font-size: 12px;
+    
+}
+
+.smallbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.smallbutton:hover{
+    color:white;
+    background-color:#003B00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+
+/* suggested pairings */
+
+/* review */
+.review{
+    border-top:1px solid #FF2761 !important;
+}
+
+.separator{
+    border-right: 1px dashed #FF2761 !important;
+    
+}
+.review-heading{
+    
+    font-size: 24px;
+    
+}
+.avatar{
+    height: 65px;
+    width:65px;
+    text-align: left;
+}
+.rating{
+    padding-top: 20px !important;
+}
+.rating-icon{
+    height: 18px;
+    width: 18px;
+}
+.review-title{
+    padding-left: 1px;
+}
+.reviewer{
+    font-size: 16px;
+    color: #FF2761;
+    font-weight: 500;
+
+}
+.post-date{
+    font-size: 12px;
+}
+.testimonial{
+    font-size: 16px;
+}
+
+.slider-left{
+    background-image: url("left-slider.svg") !important;
+    width: 100px;
+    height: 100px;
+}
+/* review */
+
+
+/* health tip */
+
+.tip-icon{
+    height: 60px !important;
+    width: 60px!important;
+    padding-left: 15px;
+    margin: 25px;
+}
+.tip-title{
+    font-size: 18px !important;
+    font-weight: 700;
+}
+.tip-text{
+    font-size: 14px;
+}
+/* health tip */
+
+/* leave review */
+.leavereview-bg{
+    background-image: url("leavereview-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.leavereview-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #CC1F4E;
+    padding-top: 100px!important;
+    padding-left: 20px;
+}
+.leavereview-text{
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.review-form{
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 50px !important;
+}
+.label-text{
+    font-size: 16px !important;
+}
+.placeholder-text{
+    font-size: 14px;
+    color: #595959 !important;
+}
+/* leave review */
+
+
+
+
+
+
+
+/* footer*/
+.newsletter{
+    border-bottom:1px solid #595959 !important;
+    padding: 50px !important;
+}
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/

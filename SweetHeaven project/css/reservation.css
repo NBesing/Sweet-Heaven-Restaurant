@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.reservationpage{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.nav-link{
+    font-size: 16px !important;
+    color:#1C1C1C !important;
+   
+}
+.nav-link :hover{
+    font-size: 16px;
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+/* header */
+
+/* reservation hero */
+/* .reservation-hero{
+    background-image: url("hero-bg.png");
+    background-repeat: no-repeat;
+    height: 400px;
+   
+} */
+.title{
+    color: #00AA00;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px !important;
+   
+}
+.subtitle{
+    color:white;
+    font-size: 16px;
+}
+/* reservation hero */
+
+/* Reservation form */
+.order-form{
+    width: 340px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 50px !important;
+    margin-top: -120px!important;
+   
+}
+.label-text{
+    font-size: 16px !important;
+}
+.placeholder-text{
+    font-size: 14px;
+    color: #595959 !important;
+    background-color: #F8F8F8;
+}
+.primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    border:none!important;
+    width: 430px;
+    
+}
+
+/* Reservation form */
+
+/* reservation alert */
+.alert{
+    
+    background-color: #003B00 !important;
+    border-radius: 20px;
+    margin-left: 50px !important;
+    height: 250px;
+}
+.alert-icon{
+    height: 70px !important;
+    width: 70px!important;
+    padding-left: 15px;
+    margin: 25px;
+}
+
+.alert-text{
+    font-size: 16px;
+    color: white;
+}
+/* reservation alert */
+
+/* Weekend specials */
+
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00!important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    
+}
+#outlinebutton{
+    /* padding: 10px; */
+    color:#007C00;
+    border: 1px solid #007C00;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 6px;
+   ;
+}
+
+.dishes{
+  background-color: #F8F8F8;  
+}
+
+.card{
+    border-radius: 20px !important;
+
+}
+.card:hover{
+    border-radius: 20px !important;
+    box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
+
+}
+.card-title-1{ 
+    font-size: 14px !important;
+    font-weight: 700;
+    color:#1C1C1C ;
+}
+.card-title-2{ 
+    font-size: 14px !important;
+    color:#FF2761;
+}
+.card-text{
+    font-size: 12px;
+    
+}
+
+.smallbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.smallbutton:hover{
+    color:white;
+    background-color:#003B00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+
+
+/* Weekend specials */
+
+
+/* weekend activities */
+.service-bg{
+    background-color: #F8F8F8;
+}
+.service-title{
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #FF2761;
+}
+.service-text{
+    color: #1C1C1C;
+    font-size: 14px;
+    
+}
+/* weekend activities */
+
+
+/* footer*/
+.newsletter{
+    border-bottom:1px solid #595959 !important;
+    padding: 50px !important;
+}
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resevervation</title>
+        <link rel="stylesheet" type="text/css" href="css/reservation.css">
+        <link rel="shortcut icon" href="assets/images/SHRLogo.png">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      </head>
+
+  <div class="container-fluid reservationpage">
+  <!--Navbar-->
+  <div class="container-fluid">
+    <div class=" row shadow-sm ">
+
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+          
+            <!-- <a class="navbar-brand" href="#"> <div class="col-6"><img class="img-fluid" src="assets/images/SHRLogo.png" alt="SHRlogo"></div>
+              
+            </a> -->
+
+            <a class="navbar-brand " href="#"> 
+              <img class="img-fluid " src="assets/images/SHRLogo.png" alt="SHRlogo" style="width: 160px; height: 100px;">
+              
+              
+            </a>
+          
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-light" id="navbarNavDropdown">
+
+
+              
+
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2" href="homepage.html" style="color: #00AA00 !important; font-weight: 600;">Home</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2  "  href="menupage.html">Menu</a>
+                </li>
+                
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="reservation.html">Reservation</a>
+                </li>
+                
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="contact_us.html">Contact Us</a>
+                </li>
+
+                
+              
+          
+                
+                  
+          
+
+              </ul>
+              <form class="d-flex " role="search" >
+                
+                <a href="#" class="btn  pe-2"  > <img style="height: 25px;width:25px"  class="img-fluid" src="assets/icons/search.svg"></a>
+                
+                <a href="#" class="btn  ps-1 "> <img style="height: 25px;width:25px"  class="img-fluid" src="assets/icons/shopping-cart.svg"></a>
+                
+                <a href="order.html" id="secondarybutton" class="btn btn-sm text-light">Make Order</a>
+                
+              </form>
+            </div>
+          </div>
+      </nav>
+        
+
+    </div>
+  </div>
+ 
+  <!--NavBar-->
+
+  <!-- reservation hero -->
+  <div class=" reservation-hero container-fluid ">
+    <div class="row my-auto">
+      <img src="css/hero-bg.png" class="card-img-top" alt="...">
+    </div>
+  </div>
+  <!-- reservation hero -->
+
+ <!-- Reservation form -->
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-7 ms-5  ">
+      <div class="row order-form mx-auto  pb-4 pt-4 w-100 shadow mb-4">
+        <div class="col-12 text-center pb-2">
+          <span style="color: #00AA00; font-size: 20px; font-weight: 500; ">Reserve your table here</span> <br> 
+        
+        </div>
+        
+        <form class="p-5">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label label-text " style="font-size: 16px!important; color: #1C1C1C; ">Name<span style="color: red;">*</span></label>
+                <input class="form-control form-control-lg placeholder-text" type="text" placeholder="Enter your name" aria-label=".form-control-lg example" style="font-size: 14px!important; background-color: #F8F8F8;" >
+                
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label"  style="font-size: 16px!important; color: #1C1C1C; ">Tel <span style="color: red;">*</span></label>                  
+              <input type="tel" class="form-control" id="phone" placeholder="674733043" style="font-size: 14px!important; background-color: #F8F8F8;">
+              <i class="bi bi-hash"></i>
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label" style="font-size: 16px!important; color: #1C1C1C;">Email</label>
+                <input type="email" class="form-control placeholder-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="bnaura2002@gmail.com" style="font-size: 14px!important;background-color: #F8F8F8;">
+                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.-->
+            </div> 
+            
+            <div class="row">
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="number" class="form-label" style="font-size: 16px!important; color: #1C1C1C;">Table Number</label>
+                  <select class="form-select form-select-lg mb-3" aria-label="Large select example" style="font-size: 14px!important; background-color: #F8F8F8;">
+                    <option selected style="font-size: 14px!important; background-color: #F8F8F8;">1</option>
+                    <option value="1" style="font-size: 14px!important; background-color: #F8F8F8;">2</option>
+                    <option value="2" style="font-size: 14px!important; background-color: #F8F8F8;">3</option>
+                    <option value="2" style="font-size: 14px!important; background-color: #F8F8F8;">4</option>
+                    <option value="2" style="font-size: 14px!important; background-color: #F8F8F8;">5</option>
+                    <option value="2" style="font-size: 14px!important; background-color: #F8F8F8;">6</option>
+                  </select>
+                  
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="number" class="form-label" style="font-size: 16px!important; color: #1C1C1C;">Number of seats</label>
+                  <input type="number" class="form-control" id="number" placeholder="" style="font-size: 14px!important; background-color: #F8F8F8;">
+                   
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="date" class="form-label" style="font-size: 16px!important; color: #1C1C1C;">Date</label>
+                  <input type="date" class="form-control" id="date" placeholder="Enter Date" style="font-size: 14px!important; background-color: #F8F8F8;">
+                  <i class="bi bi-calendar-event"></i> 
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="time" class="form-label" style="font-size: 16px!important; color: #1C1C1C;">Time</label>
+                  <input type="time" class="form-control" id="time" placeholder="Enter Time" style="font-size: 14px!important; background-color: #F8F8F8;">
+                  <i class="bi bi-clock"></i> 
+                </div>
+              </div>
+            </div>
+          
+            
+                
+            <button type="submit" class=" primarybutton btn btn-primary mt-4 w-100">Reserve</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-4 ">
+      <div class="row alert pb-4 pt-4 mt-5 shadow mb-4">
+      
+              <img src="assets/icons/Bulb.svg" class="alert-icon mx-auto " alt="...">
+                  <span  class="alert-text text-center">Any reservation which is 15minutes late shall be cancelled  </span>
+        
+      </div>
+    </div>
+    
+  </div>
+ </div>
+ <!-- Reservation form -->
+
+ <!-- weekendend specials -->
+ <div class="container-fluid dishes">
+  <div class="row ">
+    <div class="col-12 ">
+      <div class="row ">
+        <p class="title pb-2 ps-5" style="font-size: 28px; font-weight: bold;">Weekend Specials</p> 
+      </div>
+      <div class="row pt-3 pb-4">
+        <div class="btn-toolbar ps-5 text-center" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="bigbutton btn btn-sm text-light me-4" id="primarybutton">All</button>
+            <button type="button" class=" btn btn-secondary me-4 " id="outlinebutton">Local cuisine</button>
+            <button type="button" class=" btn btn-secondary me-4" id="outlinebutton">Local cuisine</button>
+            <button type="button" class="btn btn-info me-4 pe-2"  id="outlinebutton">Intercontinental</button>
+            <button type="button" class="btn btn-info me-4" id="outlinebutton">Desserts</button>
+            <button type="button" class="btn btn-info me-4" id="outlinebutton">Beverages</button>
+            <button type="button" class="btn btn-info me-4" id="outlinebutton" id="outlinebutton">Breakfast</button>      
+          </div>       
+        </div>
+      </div>
+      
+       
+       <div class="row  pe-4 ps-4 pb-4 ">
+          <div class="container-fluid p-auto">
+            <div class="row py-4 pt-0 ">
+            <div class="col-3">
+              <div class="card shadow" >
+                <img src="assets/images/rice_chicken.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6" style="justify-content: left;">
+                      <h5 class="card-title-1" id="cardtitle">Fried rice <br> & Chicken</h5>
+                    </div>
+                    <div class="col-6">
+                      <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                    </div>
+                  </div>
+                  
+                  <p class="card-text  pe-1 text-wrap ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                  <a href="menupage.html" class="smallbutton btn btn-sm text-light " id="">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card shadow" >
+                <img src="assets/images/plantain_ndole.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6" style="justify-content: left;">
+                      <h5 class="card-title-1" id="cardtitle">Plantain <br> & Koki</h5>
+                    </div>
+                    <div class="col-6">
+                      <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                    </div>
+                  </div>
+                  
+                  <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                  <a href="#"  class="smallbutton btn btn-sm text-light">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card shadow" >
+                <img src="assets/images/eforiro.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6" style="justify-content: left;">
+                      <h5 class="card-title-1" id="cardtitle">Eforiro <br> Soup</h5>
+                    </div>
+                    <div class="col-6">
+                      <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                    </div>
+                  </div>
+                  
+                  <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                  <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card shadow" >
+                <img src="assets/images/yam-veg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6" style="justify-content: left;">
+                      <h5 class="card-title-1" id="cardtitle">Yam Veg <br> & Soup</h5>
+                    </div>
+                    <div class="col-6">
+                      <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                    </div>
+                  </div>
+                  
+                  <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                  <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+</div>
+ <!-- weekendend specials -->
+
+ <!-- weekend activities -->
+ <div class="container-fluid service-bg">
+  <div class="row pt-5 ps-3 pe-3 pb-4">
+    <div class="col-12 pb-3">
+      <p style="font-size: 28px; font-weight: 700;">Other weekend activities</p>
+    </div>
+    <div class=" col-4 text-center">
+      <div class="row ">
+        <img src="assets/images/sales.png" class="card-img-top rounded-4 mt-4 mb-4 " alt="...">
+      </div>
+      <div class="row">
+        <span class="pb-2 service-title" >Dance team</span> <br>
+        <span class="service-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus odio, interdum vel nisl ac, finibus semper magna.</span>
+      </div>
+    </div>
+    <div class="col-4 text-center ">
+      <div class="row ">
+        <img src="assets/images/delivery.png" class="card-img-top rounded-4 mt-4 mb-4 " alt="...">
+      </div>
+      <div class="row">
+        <span class="pb-2 service-title" >Music crew</span> <br>
+        <span class="service-text  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus odio, interdum vel nisl ac, finibus semper magna.</span>
+      </div>
+    </div>
+    <div class="col-4 text-center ">
+      <div class="row ">
+        <img src="assets/images/reservation.png" class="card-img-top rounded-4 mt-4 mb-4 " alt="...">
+      </div>
+      <div class="row">
+        <span class="pb-2 service-title" >Dance crew</span> <br>
+        <span class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus odio, interdum vel nisl ac, finibus semper magna.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+ <!-- weekend activities -->
+
+
+  
+
+<!-- Footer -->
+<div class="container-fluid footerbg">
+  <div class=" row  newsletter ms-3 me-3">
+    <div class="col-12  mx-auto">
+      <div class="row">
+        <div class=" newsletter-text col-12  col-md-5 ms-auto">
+          <span class="newsletter-title">Want to get latest updates?
+          </span>
+          <br>
+          <span class="newsletter-text">Sign up for our newsletter</span>
+        </div>
+        <div class=" newsletter-form col-12 col-md-7 me-auto ">
+          <form class="row g-3">
+            
+            <div class="col-8 ps-5">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="email" class="form-control bg-light ps-3" id="inputPassword2" placeholder="Enter your email">
+            </div>
+            <div class="col-4">
+              <a href="#"  class="bigbutton btn btn-sm text-light" >Subscribe</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+     
+     
+   
+    
+ </div>
+ <div class="row quicklinks ">
+  <div class="footer">
+    <div class="container">
+        <footer class="pt-5 ">
+            <div class=" newsletter ms-4 me-4 ps-0 pe-0 row">
+
+                <div class="col-12 col-sm-12 col-lg-3 me-4mb- mb-lg-0 ">
+                    <ul class="nav flex-column">
+                        <a class=" ps-0 navbar-brand" href="#"><img
+                                src="assets\images\SHRLogo.png"  style="width: 160px; height: 100px;" alt=""></a>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                  <h6 class="h8">Company</h6>
+                    <ul class="footer-text nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Menu</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reservation</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                  <h6 class="h8">About Us</h6>
+                    <ul class="footer-text nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get To Know <br> More</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">The Team</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ps-0  ">
+                  <h6 class="h8">Contact Us</h6>
+                    <ul class=" footer-text nav flex-column text-muted" >
+                        <p class="mb-2" >Bonduma, Buea</p>
+                        <p class="mb-2">674733043</p>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">odr@sweetheaven.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-4 ms-0 pe-0  ps-5  mb-lg-0 " >
+                  <h6 class="footer-text ms-auto" style="color:#00AA00">Opening hours</h6>
+                  <h6 class="footer-text " >Mon-Sun......8am-11pm</h6>
+                  <h6 class="footer-text "  style="color:#00AA00">Reservation</h6>
+                  <h6 class="footer-text " >Sat & Sun.......4pm-12:30am</h6>
+                    
+                </div>
+            </div>
+            <div class="row ms-4 me-4 pe-0 ">
+              <div class="col-6 ps-0">
+                <form class="d-flex " role="search" >
+              
+                  <a href="#" class="btn  pe-2"  > <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/facebook.svg"></a>
+                  
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/twitter.svg"></a>
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/linkedin.svg"></a>
+                </form>
+              </div>
+              <div class="col-6  pe-0">
+                <p class="text-muted text-end " style="font-size: 14px!important;">&copy;2023 SweetHeavenRestaurant. All rights reserved. </p>
+              </div>               
+            </div>
+        </footer>
+    </div>
+</div>
+ </div>
+</div>
+  <!-- Footer -->
+
+</div>
+<body>
+    
+</body>
+</html>

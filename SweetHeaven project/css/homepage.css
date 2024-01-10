@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.homepage{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.nav-link{
+    color:#1C1C1C !important;
+   
+}
+.nav-link :hover{
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00 ;
+    border-radius: 6px;
+    width: 110px!important;
+    
+}
+#primarybutton:hover{
+    /* padding: 10px; */
+    color:white;
+    background-color:#003B00;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 110px!important;
+    
+}
+#outlinebutton,betterhealth{
+    /* padding: 10px; */
+    color:#00AA00;
+    border: 1px solid #00AA00;
+    border-radius: 6px;
+    width:100px!important;
+    
+   
+}
+#outlinebutton:hover{
+    /* padding: 10px; */
+    color:#003B00;
+    border:2px solid #003B00;
+    border-radius: 6px;
+    width:100px!important;
+    background-color: white;
+   
+}
+.herobg{
+    background-image: url("bgherohome.png");
+    background-repeat: no-repeat;
+}
+/* Hero section */
+#heroimage{
+    margin-left: -170px;
+    margin-top: -50px !important;
+    margin-bottom: -120px;
+    
+}
+#subheadline{
+    font-size: 16px;
+    color:#1C1C1C;
+}
+.m-title-1{
+    color:#59C859 !important;
+    font-size: 16px !important;
+}
+.m-title-2{
+    color:white!important;
+    font-size: 28px !important;
+}
+.menubg{
+    background-color: #022F02;
+}
+.card{
+    border-radius: 20px !important;
+
+}
+.card:hover{
+    border-radius: 20px !important;
+    box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
+
+}
+.card-title-1{ 
+    font-size: 14px !important;
+    font-weight: 700;
+    color:#1C1C1C ;
+}
+.card-title-2{ 
+    font-size: 14px !important;
+    color:#FF2761;
+}
+.card-text{
+    font-size: 12px;
+    
+}
+
+.smallbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.smallbutton:hover{
+    color:white;
+    background-color:#003B00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.card-img-top {
+    border-radius: 20px 20px 0px 0px!important;
+    height: 160px;
+    object-fit: cover; 
+}
+
+
+/* Hero section */
+
+
+/* today's discount */
+.discountbg{
+    background-color: #F8F8F8 !important;
+}
+.discount{
+    text-align: center;
+}
+ .todaydiscount-1{
+    text-align: center !important;
+    color: #022F02;
+    font-size: 28px;
+    font-weight: 700;
+
+ }
+ #todaydiscount-1{
+    text-align: center;
+    color: #1C1C1C;
+    font-size: 16px;
+
+ }
+ .bigcard{
+    border-radius: 30px !important;
+   
+   
+ }
+ .bigcard:hover{
+    border-radius: 30px !important;
+    box-shadow: 100px!important;
+    box-shadow: 0px 2px 8px 3px #959595!important ;
+ }
+ .bigcardtitle-1{ 
+    font-size: 18px !important;
+    font-weight: 700;
+    color:#1C1C1C ;
+}
+ .bigcardtitle-2{ 
+    font-size: 18px !important;
+    color:#FF2761 !important ;
+}
+.bigcardtext{
+    font-size: 14px;
+
+}
+
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+.bigbutton:hover{
+    color:white;
+    background-color:#003B00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+.bigpic {
+    border-radius: 20px 20px 0px 0px!important;
+    height: 220px;
+    object-fit: cover; 
+}
+
+
+/* today's discount */
+
+/* Top Dishes */
+.topdishbg{
+    background-color: white;
+}
+.topdish{
+    text-align: center;
+    font-size: 28px;
+    color:#CC1F4E;
+    font-weight: 700;
+}
+.title{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.textbutton{
+    text-align: center !important;
+    color:#00AA00 !important;
+    font-size:18px;
+    text-decoration: underline !important;
+    font-weight: 700!important;
+
+}
+/* Top Dishes */
+
+
+/* reservation */
+.reservationbg{
+    background-color:  #F8F8F8 ;
+    height: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation-img{
+   
+    height: 150px; 
+    width:750px 
+}
+.reserve-title{
+    font-size: 30px;
+    color: #00AA00;
+    justify-content: center !important;
+    border-right:1px solid white !important;
+    height: 100px;
+}
+.reserve-text{
+    font-size: 16px;
+    color:white;
+}
+/* reservation */
+
+/* About us */
+.about-us{
+    color: #00AA00;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: -10px !important;
+}
+.title-text{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.about-body{
+    font-size: 16px;
+
+}
+/* About us */
+
+/* Customer review */
+.reviewbg{
+    background-color:white;
+
+}
+.review-card:hover{
+    border-radius: 20px !important;
+    
+}
+.review-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.avatar{
+    height: 65px;
+    width:65px;
+    text-align: left;
+}
+.rev-icon{
+    padding-bottom: -20px !important;
+    font-size: 40px;
+    margin-top: -20px!important;
+}
+.rating{
+    padding-top: 20px !important;
+}
+.rating-icon{
+    height: 15px;
+    width: 15px;
+}
+.review-title{
+    padding-left: 1px;
+}
+.reviewer{
+    font-size: 16px;
+    color: #FF2761;
+    font-weight: 500;
+
+}
+.post-date{
+    font-size: 12px;
+}
+.testimonial{
+    font-size: 16px;
+}
+
+/* Customer review */
+
+/* Blog */
+.blogbg{
+    background-color:white;
+}
+.blogm-1{
+    font-size: 28px;
+    font-weight: 700;  
+    text-align: center !important;  
+}
+.blogm-2{
+    font-size: 16px;
+    color: #1C1C1C;  
+    text-align: center !important;  
+
+}
+.blogimg-1{
+    height: 200px !important;
+    width:200px!important;
+    padding-left: 15px;
+    margin: 25px;
+}
+.blog-title{
+    font-size: 18px !important;
+    font-weight: 700;
+}
+.blog-text{
+    font-size: 14px;
+}
+/* Blog */
+
+/* contact us */
+#contactbg{
+    background-color:#F8F8F8;
+    padding-top:20px !important;
+    padding-bottom:30px !important;
+    
+}
+.contacthome{
+    background-image: url("contactus_home.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px !important;
+    margin-right: 20px!important;
+    margin-left:20px !important;
+    
+    border-radius:20px;
+
+}
+.contact-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #00AA00;
+} 
+.contact-text{
+    font-size: 16px;
+    color: white;
+    
+}
+#outlinebutton-reserve{
+    color:#DBEED3;
+    border: 1px solid white !important;
+    width:100px!important
+}
+/* contact us */
+
+/* Footer */
+
+.newsletter{
+    border-bottom:1px solid #595959 !important;
+    padding: 50px !important;
+}
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+
+
+/* Footer */
+

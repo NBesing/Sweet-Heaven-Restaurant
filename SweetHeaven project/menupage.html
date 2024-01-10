@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="css/menupage.css">
+        <link rel="shortcut icon" href="assets/images/SHRLogo.png">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      </head>
+ 
+<body>
+  <div class="container-fluid">
+      
+  <!--Navbar-->
+  <div class="container-fluid">
+    <div class=" row shadow-sm ">
+
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+          
+            <!-- <a class="navbar-brand" href="#"> <div class="col-6"><img class="img-fluid" src="assets/images/SHRLogo.png" alt="SHRlogo"></div>
+              
+            </a> -->
+
+            <a class="navbar-brand " href="#"> 
+              <img class="img-fluid " src="assets/images/SHRLogo.png" alt="SHRlogo" style="width: 160px; height: 100px;">
+              
+              
+            </a>
+          
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-light" id="navbarNavDropdown">
+
+
+              
+
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2" href="homepage.html" style="color: #00AA00 !important; font-weight: 600;">Home</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2  "  href="menupage.html">Menu</a>
+                </li>
+                
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="reservation.html">Reservation</a>
+                </li>
+                
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 "  href="contact_us.html">Contact Us</a>
+                </li>
+
+                
+              
+          
+                
+                  
+          
+
+              </ul>
+              <form class="d-flex " role="search" >
+                
+                <a href="#" class="btn  pe-2"  > <img style="height: 25px;width:25px"  class="img-fluid" src="assets/icons/search.svg"></a>
+                
+                <a href="#" class="btn  ps-1 "> <img style="height: 25px;width:25px"  class="img-fluid" src="assets/icons/shopping-cart.svg"></a>
+                
+                <a href="order.html" id="secondarybutton" class="btn btn-sm text-light">Make Order</a>
+                
+              </form>
+            </div>
+          </div>
+      </nav>
+        
+
+    </div>
+  </div>
+ 
+ 
+  <!--NavBar-->
+
+  <!-- Menu Hero -->
+  <div class=" menu-bg container-fluid ">
+    <div class="row menu pt-5">
+        <div class="col-6 ps-5 ">
+            <p class=" title ">Find out what is in our kitchen for you</p>
+            <p class="subtitle pb-3">Experience the best of Sweet Heaven's cuisine in a warm and welcoming atmosphere</p>
+           
+              <form class="row g-3">
+              
+                <div class="col- ">
+                  <label for="inputPassword2" class="visually-hidden">Password</label>
+                  <input type="email" class="form-control bg-light ps-3" id="inputPassword2" placeholder="Enter your email">
+                </div>
+                
+              </form>
+           
+        </div>
+
+    </div>
+  </div>
+  <!-- Menu Hero -->
+
+
+  <!-- Menu -->
+  <div class="container-fluid shado-sm dishes">
+        <div class="row dishes ">
+          <p class="title pb-2 ps-5 " style="font-size: 28px; font-weight: bold;">Menu</p> 
+        </div>
+        <div class="row pt-3 pb-4 ">
+          <div class="btn-toolbar ps-5 text-center" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="bigbutton btn btn-sm text-light me-4" id="primarybutton">All</button>
+              <button type="button" class=" btn btn-secondary me-4 " id="outlinebutton">Local cuisine</button>
+              <button type="button" class=" btn btn-secondary me-4" id="outlinebutton">Local cuisine</button>
+              <button type="button" class="btn btn-info me-4 pe-2"  id="outlinebutton">Intercontinental</button>
+              <button type="button" class="btn btn-info me-4" id="outlinebutton">Desserts</button>
+              <button type="button" class="btn btn-info me-4" id="outlinebutton">Beverages</button>
+              <button type="button" class="btn btn-info me-4" id="outlinebutton" id="outlinebutton">Breakfast</button>      
+            </div>       
+          </div>
+        </div>
+        
+         
+        <div class="row py-4 pt-0 dishes">
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/rice_chicken.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Fried rice <br> & Chicken</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 text-wrap ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="menupage.html" class="smallbutton btn btn-sm text-light " id="">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/plantain_koki.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Plantain <br> & Koki</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#"  class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/orange juice.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Melon <br> juice</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/yam-veg.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Yam Veg <br> & Soup</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="row py-4 pt-0 dishes">
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/plantain_sauce (1).jpg " class="card-img-top " alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Dodo<br> & Sauce</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 text-wrap ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="menupage.html" class="smallbutton btn btn-sm text-light " id="">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/rice_sauce.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Rice <br> & sauce</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#"  class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/Eba .jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Eba & <br> veg soup</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/yam-veg.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Yam Veg <br> & Soup</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="row py-4 pt-0 dishes">
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/rice_chicken.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Fried rice <br> & Chicken</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1500</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 text-wrap ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="menupage.html" class="smallbutton btn btn-sm text-light " id="">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/plantain_koki.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Plantain <br> & Koki</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#"  class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/orange juice.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Melon <br> juice</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 pb-2">
+            <div class="card shadow" >
+              <img src="assets/images/yam-veg.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6" style="justify-content: left;">
+                    <h5 class="card-title-1" id="cardtitle">Yam Veg <br> & Soup</h5>
+                  </div>
+                  <div class="col-6">
+                    <h5 class="card-title-2" style="justify-content: right;">XAF1000</h5>
+                  </div>
+                </div>
+                
+                <p class="card-text  pe-1 ">Lorem ipsum dolor sit amet, consec tetur see more...</p>
+                <a href="#" class="smallbutton btn btn-sm text-light">Order Now</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+         <div class="row">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+         </div>
+          
+        
+  </div>
+    
+  <!-- Menu -->
+
+<!-- Footer -->
+  <div class="container-fluid footerbg">
+  <div class=" row  newsletter ms-3 me-3">
+    <div class="col-12  mx-auto">
+      <div class="row">
+        <div class=" newsletter-text col-12  col-md-5 ms-auto">
+          <span class="newsletter-title">Want to get latest updates?
+          </span>
+          <br>
+          <span class="newsletter-text">Sign up for our newsletter</span>
+        </div>
+        <div class=" newsletter-form col-12 col-md-7 me-auto ">
+          <form class="row g-3">
+            
+            <div class="col-8 ps-5">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="email" class="form-control bg-light ps-3" id="inputPassword2" placeholder="Enter your email">
+            </div>
+            <div class="col-4">
+              <a href="#"  class="bigbutton btn btn-sm text-light" >Subscribe</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+     
+     
+   
+    
+ </div>
+ <div class="row quicklinks ">
+  <div class="footer">
+    <div class="container">
+        <footer class="pt-5 ">
+            <div class=" newsletter ms-4 me-4 ps-0 pe-0 row">
+
+                <div class="col-12 col-sm-12 col-lg-3 me-4mb- mb-lg-0 ">
+                    <ul class="nav flex-column">
+                        <a class=" ps-0 navbar-brand" href="#"><img
+                                src="assets\images\SHRLogo.png"  style="width: 160px; height: 100px;" alt=""></a>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                  <h6 class="h8">Company</h6>
+                    <ul class="footer-text nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Menu</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reservation</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                  <h6 class="h8">About Us</h6>
+                    <ul class="footer-text nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get To Know <br> More</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">The Team</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ps-0  ">
+                  <h6 class="h8">Contact Us</h6>
+                    <ul class=" footer-text nav flex-column text-muted" >
+                        <p class="mb-2" >Bonduma, Buea</p>
+                        <p class="mb-2">674733043</p>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">odr@sweetheaven.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mb-4 ms-0 pe-0  ps-5  mb-lg-0 " >
+                  <h6 class="footer-text ms-auto" style="color:#00AA00">Opening hours</h6>
+                  <h6 class="footer-text " >Mon-Sun......8am-11pm</h6>
+                  <h6 class="footer-text "  style="color:#00AA00">Reservation</h6>
+                  <h6 class="footer-text " >Sat & Sun.......4pm-12:30am</h6>
+                    
+                </div>
+            </div>
+            <div class="row ms-4 me-4 pe-0 ">
+              <div class="col-6 ps-0">
+                <form class="d-flex " role="search" >
+              
+                  <a href="#" class="btn  pe-2"  > <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/facebook.svg"></a>
+                  
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/twitter.svg"></a>
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px"  class="img-fluid" src="assets/icons/linkedin.svg"></a>
+                </form>
+              </div>
+              <div class="col-6  pe-0">
+                <p class="text-muted text-end " style="font-size: 14px!important;">&copy;2023 SweetHeavenRestaurant. All rights reserved. </p>
+              </div>               
+            </div>
+        </footer>
+    </div>
+</div>
+ </div>
+  </div> 
+<!-- Footer -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

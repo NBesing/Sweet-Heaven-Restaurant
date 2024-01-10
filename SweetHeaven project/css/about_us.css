@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.aboutpage{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.nav-link{
+    font-size: 16px !important;
+    color:#1C1C1C !important;
+   
+}
+.nav-link :hover{
+    font-size: 16px;
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+/* header */
+
+
+/* Menu Hero */
+.abouthero-bg{
+    background-image: url("hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+   
+}
+.title{
+    color: #00AA00;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 80px !important;
+   
+}
+.subtitle{
+    color:white;
+    font-size: 16px;
+}
+
+/* Menu Hero */
+
+/* About us */
+.aboutus-bg{
+    background-color: #022F02;
+    height: 400px;
+}
+.maintext{
+    font-size: 30px;
+    color: #00AA00;
+    font-weight: 600;
+}
+.subtext{
+    font-size: 16px;
+    color: white;
+}
+/* About us */
+
+/* mission/vision */
+
+.mvtitle{
+    color: #00AA00;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.mvtext{
+    font-size: 16px;
+
+}
+/* mission/vision */
+
+/* services */
+/* .service-bg{
+    background-color: #FFE9EF;
+} */
+.service-title{
+    font-size: 18px; 
+    font-weight: 600; 
+    color: #FF2761;
+}
+/* services */
+
+/* the team */
+.teamtitle{
+    font-size:28px;
+    font-weight: 700;
+}
+.teamtext{
+    font-size: 16px;
+    color: #1C1C1C;
+}
+.textbutton{
+    text-align: center !important;
+    color:#00AA00 !important;
+    font-size:18px;
+    text-decoration: underline !important;
+    font-weight: 700!important;
+
+}
+/* the team */
+
+/* contact us */
+.contactbg{
+    background-image: url("menu-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 20px;
+    margin-right: 75px !important;
+    margin-left: 75px!important;
+    
+}
+.contact-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #00AA00;
+} 
+.contact-text{
+    font-size: 16px;
+    color: white;
+    
+}
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00 ;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 110px!important;
+    
+}
+#primarybutton:hover{
+    /* padding: 10px; */
+    color:white;
+    background-color:#003B00;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 110px!important;
+    
+}
+/* contact us */
+
+
+
+/* footer*/
+.newsletter{
+    border-bottom:1px solid #595959 !important;
+    padding: 50px !important;
+}
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/

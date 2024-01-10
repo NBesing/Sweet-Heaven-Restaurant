@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.homepage{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.nav-link{
+    font-size: 16px !important;
+    color:#1C1C1C !important;
+   
+}
+.nav-link :hover{
+    font-size: 16px;
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+/* header */
+
+
+/* Menu Hero */
+.menu-bg{
+    background-image: url("menu-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+   
+}
+.title{
+    color: #00AA00;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.subtitle{
+    color:white;
+    font-size: 16px;
+}
+
+/* Menu Hero */
+
+/* dishes */
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00!important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    
+}
+#outlinebutton{
+    /* padding: 10px; */
+    color:#007C00;
+    border: 1px solid #007C00;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 6px;
+   ;
+}
+
+.dishes{
+  background-color: white; 
+  padding-left:35px !important; 
+  padding-right:35px !important; 
+}
+.card{
+    border-radius: 20px !important;
+
+}
+.card:hover{
+    border-radius: 20px !important;
+    box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
+
+}
+.card-title-1{ 
+    font-size: 14px !important;
+    font-weight: 700;
+    color:#1C1C1C ;
+}
+.card-title-2{ 
+    font-size: 14px !important;
+    color:#FF2761;
+}
+.card-text{
+    font-size: 12px;
+    
+}
+
+.smallbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.smallbutton:hover{
+    color:white;
+    background-color:#003B00 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+}
+.card-img-top {
+    border-radius: 20px 20px 0px 0px!important;
+    height: 160px;
+    object-fit: cover; 
+}
+
+
+
+
+/* dishes */
+
+/* pagination */
+.page-item{
+
+    color: #1C1C1C!important;
+}
+/* pagination */
+
+
+/* footer*/
+.newsletter{
+    border-bottom:1px solid #595959 !important;
+    padding: 50px !important;
+}
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/
