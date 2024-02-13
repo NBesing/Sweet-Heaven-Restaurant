@@ -8,7 +8,7 @@
 /* header */
 .nav-link{
     font-size: 16px !important;
-    color:#1C1C1C !important;
+    color:white !important;
    
 }
 .nav-link :hover{
@@ -30,18 +30,25 @@
 
 /* Menu Hero */
 .abouthero-bg{
-    background-image: url("hero-bg.png");
+    background-image: url("about_contact_blog-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 450px;
    
+}
+.about-hero{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
 }
 .title{
     color: #00AA00;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px !important;
+    
    
+}
+.text{
+    margin-top: 80px !important;
 }
 .subtitle{
     color:white;
@@ -52,8 +59,9 @@
 
 /* About us */
 .aboutus-bg{
-    background-color: #022F02;
+    background-color: white;
     height: 400px;
+   
 }
 .maintext{
     font-size: 30px;
@@ -62,12 +70,19 @@
 }
 .subtext{
     font-size: 16px;
-    color: white;
+    color: white; color: #1C1C1C!important;
 }
 /* About us */
 
 /* mission/vision */
-
+.mv-bg{
+    background-color: #022F02;
+    
+}
+.mv-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+}
 .mvtitle{
     color: #00AA00;
     font-size: 24px;
@@ -76,6 +91,7 @@
 }
 .mvtext{
     font-size: 16px;
+    color: white;
 
 }
 /* mission/vision */
@@ -84,6 +100,10 @@
 /* .service-bg{
     background-color: #FFE9EF;
 } */
+.service-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+}
 .service-title{
     font-size: 18px; 
     font-weight: 600; 
@@ -92,6 +112,29 @@
 /* services */
 
 /* the team */
+.team-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+}
+/* .im1{
+    height: 250px;
+    margin-bottom: -20px!important;
+
+}
+.im2{
+    height: 350px;
+    
+
+}
+.im1{
+    height: 250px;
+
+}
+.im1{
+    height: 250px;
+
+} */
+
 .teamtitle{
     font-size:28px;
     font-weight: 700;
@@ -108,6 +151,7 @@
     font-weight: 700!important;
 
 }
+
 /* the team */
 
 /* contact us */
@@ -115,10 +159,10 @@
     background-image: url("menu-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin-left: 180px!important;
+    margin-right: 180px!important;
     border-radius: 20px;
-    margin-right: 75px !important;
-    margin-left: 75px!important;
+    
     
 }
 .contact-title{

@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
-.homepage{
+.menupage{
     color: #1C1C1C;
     font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
 }
 /* header */
 .nav-link{
     font-size: 16px !important;
-    color:#1C1C1C !important;
+    color: white!important;
    
+}
+.nav-row{
+    margin-left: 80px!important;
+    margin-right: 100px!important;
+
 }
 .nav-link :hover{
     font-size: 16px;
@@ -32,13 +38,34 @@
     background-image: url("menu-bg.png");
     background-repeat: no-repeat;
     background-size:cover;
-    height: 550px;
+    height: 600px;
+    
    
 }
-.title{
+.menu{
+    height: 550px;
+    padding-left: 80px!important;
+    margin-top: -90px!important;
+} 
+.row-dishes{
+    margin-left: 20px!important;
+    margin-right: 10px!important;
+}
+.title1{
     color: #00AA00;
     font-size: 32px;
     font-weight: 700;
+    margin-left: 2px;
+    
+}
+.menu-buttons{
+    margin-left: 22px !important;
+}
+.title2{
+    color: #1C1C1C;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 20px;
     
 }
 .subtitle{
@@ -68,31 +95,44 @@
 }
 
 .dishes{
-  background-color: white; 
+  background-color: #F8F8F8; 
   padding-left:35px !important; 
   padding-right:35px !important; 
 }
 .card{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
+    
 
 }
 .card:hover{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
 
 }
+.smallpic{
+    height: 217px!important;
+}
+
 .card-title-1{ 
     font-size: 14px !important;
     font-weight: 700;
     color:#1C1C1C ;
+    width: 100% !important;
+    margin-top: -10px!important;
+    margin-bottom: 1px;
+ 
 }
+
 .card-title-2{ 
-    font-size: 14px !important;
+    font-size: 18px !important;
     color:#FF2761;
+    font-weight: 600;
+    margin-bottom: 1px;
+ 
 }
 .card-text{
     font-size: 12px;
-    
+    margin-bottom: 5px;
 }
 
 .smallbutton{
@@ -108,10 +148,11 @@
     border-radius: 5px !important;
 }
 .card-img-top {
-    border-radius: 20px 20px 0px 0px!important;
+    border-radius: 10px 10px 0px 0px!important;
     height: 160px;
     object-fit: cover; 
 }
+
 
 
 
@@ -127,10 +168,22 @@
 
 
 /* footer*/
-.newsletter{
-    border-bottom:1px solid #595959 !important;
-    padding: 50px !important;
+.footerbg{
+    border-top:1px solid #D9D9D9 !important;
+    background-color: white;
 }
+.newsletter{
+    border-bottom:1px solid #D9D9D9!important;
+    margin-left: 130px !important;
+    margin-right: 100px !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+/* .newsletter-col{
+    margin-left:120px!important;
+    margin-right: 60px;
+} */
 .newsletter-title{
     font-size: 20px;
     color: #1C1C1C;

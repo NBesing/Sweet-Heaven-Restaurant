@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Make Order</title>
+        <link rel="stylesheet" type="text/css" href="css/order_summary.css">
+        <link rel="shortcut icon" href="assets/images/SHRLogo.png">
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      </head>
+
+ <div class="container-fluid orderpage">
+ 
+    <!--Navbar-->
+    <div class="container-fluid ">
+      <div class=" row shadow-sm navcontainer">
+
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid nav-row">
+
+            <!-- <a class="navbar-brand" href="#"> <div class="col-6"><img class="img-fluid" src="assets/images/SHRLogo.png" alt="SHRlogo"></div>
+                            
+                          </a> -->
+
+            <a class="navbar-brand " href="#">
+              <img class="img-fluid " src="assets/images/SHRLogo.png" alt="SHRlogo"
+                style="width: 160px; height: 100px;">
+
+
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-light" id="navbarNavDropdown">
+
+
+
+
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2" href="homepage.html"
+                    style="color: #FF2761 !important; font-weight: 600;">Home</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2  " href="menupage.html">Menu</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 " href="today_menu.html">Today's special</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 " href="blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 " href="about_us.html">About Us</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link mx-2 " href="contact_us.html">Contact Us</a>
+                </li>
+
+
+
+
+
+
+
+
+              </ul>
+              <form class="d-flex " role="search">
+
+                <a href="#" class="btn  pe-2"> <img style="height: 25px;width:25px" class="img-fluid"
+                    src="assets/icons/search.svg"></a>
+
+                <a href="#" class="btn  ps-1 "> <img style="height: 25px;width:25px" class="img-fluid"
+                    src="assets/icons/shopping-cart.svg"></a>
+
+                <a href="order-now.html" id="secondarybutton" class="btn btn-sm text-light">Place Order</a>
+
+              </form>
+            </div>
+          </div>
+        </nav>
+
+
+      </div>
+    </div>
+
+
+  <!-- order-summary -->
+  <div class="container-fluid order-bg">
+    <div class="row order-row justify-content-center">
+      <div class="col-12 col-md-8 order-form ps-5 pe-5 ">  
+        <div class="row text-center mt-5 mb-5">
+          <span style="color: #00AA00; font-size: 24px; font-weight: 600; ">Your order has been received</span> <br> 
+        </div>   
+        <div class="row ">
+          <p style="font-size: 20px; font-weight: 700;">Order details</p>
+          <p style="font-size: 18px; font-weight: 600;">Product</p>
+        </div>   
+        <div class="row food-row">
+          <div class="col-6 ">
+            <p>Fried rice & chicken(3)</p>
+          </div>
+          <div class="col-6 text-end ">
+            <p>XAF4,500</p>
+          </div>
+        </div>   
+        <div class="row food-row pb-1 mt-3">
+          <div class="col-6 ">
+            <p>Fried plantain & grilled fish(2)</p>
+          </div>
+          <div class="col-6 text-end">
+            <p>XAF3,000</p>
+          </div>
+        </div>  
+        <div class="row food-row mt-3">
+          <div class="col-6 ">
+            <p>Achu & yellow soup(1)</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> XAF2,000</p>
+          </div>
+        </div> 
+        <div class="row food-row mt-3">
+          <div class="col-6 ">
+            <p>Delivery charges</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> XAF500</p>
+          </div>
+        </div> 
+        <div class="row pb-1 mt-4" style="font-size: 18px; font-weight: 600;">
+          <div class="col-6 ">
+            <p >Total price</p>
+          </div>
+          <div class="col-6 text-end">
+            <p> XAF10,000</p>
+          </div>
+        </div> 
+        <div class="row food-row mt-3">
+          <div class="col-6 ">
+            <p>Payment method</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> Orange money(OM)</p>
+          </div>
+        </div> 
+        <div class="row food-row mt-3">
+          <div class="col-6 ">
+            <p>Delivery time</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> 3:30pm</p>
+          </div>
+        </div> 
+           
+        <div class="row mt-5">
+          <p style="font-size: 20px; font-weight: 700;">Customer details</p>
+        </div>
+        <div class="row cust-details ">
+          <div class="col-6 ">
+            <p>Name</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> Naura Besingi</p>
+          </div>
+        </div> 
+        <div class="row cust-details ">
+          <div class="col-6 ">
+            <p>Tel</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> 674733043</p>
+          </div>
+        </div> 
+        <div class="row cust-details ">
+          <div class="col-6 ">
+            <p>Location</p>
+          </div>
+          <div class="col-6 text-end">
+           <p> Dirty south</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!-- order-summary -->
+
+
+  <!-- Footer -->
+  <div class="container-fluid footerbg">
+    <div class=" row  newsletter  ">
+      <div class="col-12 newsletter-col mx-auto ">
+        <div class="row  ">
+          <div class=" newsletter-text col-12  col-md-5 ms-auto">
+            <span class="newsletter-title">Want to get latest updates?
+            </span>
+            <br>
+            <span class="newsletter-text">Sign up for our newsletter</span>
+          </div>
+          <div class=" newsletter-form col-12 col-md-7 me-auto ">
+            <form class="row g-3">
+
+              <div class="col-8 ps-5">
+                <label for="inputPassword2" class="visually-hidden">Password</label>
+                <input type="email" class="form-control bg-light ps-3" id="inputPassword2"
+                  placeholder="Enter your email">
+              </div>
+              <div class="col-4">
+                <a href="#" class="bigbutton btn btn-sm text-light">Subscribe</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="row quicklinks ">
+      <div class="footer">
+        <div class="container">
+          <footer class="pt-5 ">
+            <div class=" newsletter ms-4 me-4 ps-0 pe-0 row">
+
+              <div class="col-12 col-sm-12 col-lg-3 me-4mb- mb-lg-0 ">
+                <ul class="nav flex-column">
+                  <a class=" ps-0 navbar-brand" href="#"><img src="assets\images\SHRLogo.png"
+                      style="width: 160px; height: 100px;" alt=""></a>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                <h6 class="h8">Company</h6>
+                <ul class="footer-text nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                  </li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Menu</a>
+                  </li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reservation</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ">
+                <h6 class="h8">About Us</h6>
+                <ul class="footer-text nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get To Know <br> More</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">The Team</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Testimonials</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2 mb-4 mb-lg-0 ps-0  ">
+                <h6 class="h8">Contact Us</h6>
+                <ul class=" footer-text nav flex-column text-muted">
+                  <p class="mb-2">Bonduma, Buea</p>
+                  <p class="mb-2">674733043</p>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">odr@sweetheaven.com</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-3 mb-4 ms-0 pe-0  ps-5  mb-lg-0 ">
+                <h6 class="footer-text ms-auto" style="color:#00AA00">Opening hours</h6>
+                <h6 class="footer-text ">Mon-Sun......8am-11pm</h6>
+                <h6 class="footer-text " style="color:#00AA00">Reservation</h6>
+                <h6 class="footer-text ">Sat & Sun.......4pm-12:30am</h6>
+
+              </div>
+            </div>
+            <div class="row ms-4 me-4 pe-0 ">
+              <div class="col-6 ps-0">
+                <form class="d-flex " role="search">
+
+                  <a href="#" class="btn  pe-2"> <img style="height: 15px;width:15px" class="img-fluid"
+                      src="assets/icons/facebook.svg"></a>
+
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px" class="img-fluid"
+                      src="assets/icons/twitter.svg"></a>
+                  <a href="#" class="btn  ps-1 "> <img style="height: 15px;width:15px" class="img-fluid"
+                      src="assets/icons/linkedin.svg"></a>
+                </form>
+              </div>
+              <div class="col-6  pe-0">
+                <p class="text-muted text-end " style="font-size: 14px!important;">&copy;2023 SweetHeavenRestaurant.
+                  All rights reserved. </p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+</div>
+
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+</body>
+</html>

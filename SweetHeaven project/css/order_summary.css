@@ -10,6 +10,10 @@
     color:#1C1C1C !important;
    
 }
+.nav-row{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+}
 .nav-link :hover{
     font-size: 16px;
     color:#00AA00 !important;
@@ -29,55 +33,59 @@
 
 /* order summary */
 .order-bg{
-    background-image: url("oder-bg.png");
+    background-image: url("order_reserve_summary.png");
     background-repeat: no-repeat;
     background-size: cover;
     
 }
-.food-details{
-    color: white;
-    font-size: 14px !important;
-    padding-right: 50px!important;
-}
-
-/* order summary */
-
-/* order form */
 .order-form{
-    width: 340px;
+    
     background-color: white;
     border-radius: 20px;
-    margin-left: 50px !important;
+    margin-left: 30px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
 }
-.label-text{
-    font-size: 16px !important;
+.order-row{
+    padding-top: 80px!important;
+    padding-bottom: 80px!important;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
 }
-.placeholder-text{
-    font-size: 14px;
-    color: #595959 !important;
-    background-color: #F8F8F8;
+.food-row{
+    border-bottom: 1px solid #D9D9D9;
+   
 }
-.primarybutton{
-    /* padding: 10px; */
-    color:white;
-    background-color:#00AA00 !important;
-    font-size: 16px !important;
-    border-radius: 6px !important;
-    border:none!important;
-    width: 430px;
-    
+.cust-details{
+   
+    font-style: italic;
 }
-/* order form */
+/* order summary */
+
+
 
 
 
 
 
 /* footer*/
-.newsletter{
-    border-bottom:1px solid #595959 !important;
-    padding: 50px !important;
+.footerbg{
+    border-top:1px solid #D9D9D9 !important;
+    background-color: white;
 }
+.newsletter{
+    border-bottom:1px solid #D9D9D9!important;
+    margin-left: 130px !important;
+    margin-right: 100px !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+/* .newsletter-col{
+    margin-left:120px!important;
+    margin-right: 60px;
+} */
 .newsletter-title{
     font-size: 20px;
     color: #1C1C1C;

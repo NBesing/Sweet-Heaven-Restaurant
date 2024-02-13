@@ -4,7 +4,10 @@
     color: #1C1C1C;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+   
+
 }
+
 .nav-link{
     color:#1C1C1C !important;
    
@@ -12,6 +15,12 @@
 .nav-link :hover{
     color:#00AA00 !important;
     font-weight: 700!important;
+}
+.nav-row{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+    background-color: transparent;
+
 }
 #secondarybutton{
     /* padding: 10px; */
@@ -43,7 +52,7 @@
     color:#00AA00;
     border: 1px solid #00AA00;
     border-radius: 6px;
-    width:100px!important;
+   
     
    
 }
@@ -52,7 +61,7 @@
     color:#003B00;
     border:2px solid #003B00;
     border-radius: 6px;
-    width:100px!important;
+   
     background-color: white;
    
 }
@@ -61,6 +70,13 @@
     background-repeat: no-repeat;
 }
 /* Hero section */
+.hero-row{
+    margin-left: 90px!important;
+    margin-right: 150px!important;
+}
+.t1{
+    margin-bottom: -30px!important;
+}
 #heroimage{
     margin-left: -170px;
     margin-top: -50px !important;
@@ -71,38 +87,64 @@
     font-size: 16px;
     color:#1C1C1C;
 }
+.title-col {
+    padding-bottom: 40px;
+}
 .m-title-1{
     color:#59C859 !important;
     font-size: 16px !important;
+    margin-top: 90px!important;
 }
 .m-title-2{
     color:white!important;
     font-size: 28px !important;
+    font-weight: 700;
+    
 }
 .menubg{
     background-color: #022F02;
+    /* margin-right: -120px!important; */
+}
+.menu{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+    padding-top: 100px!important;
+    padding-bottom: 90px;
 }
 .card{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
+    
 
 }
 .card:hover{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
 
 }
+.smallpic{
+    height: 217px!important;
+}
+
 .card-title-1{ 
     font-size: 14px !important;
     font-weight: 700;
     color:#1C1C1C ;
+    width: 100% !important;
+    margin-top: -10px!important;
+    margin-bottom: 1px;
+ 
 }
+
 .card-title-2{ 
-    font-size: 14px !important;
+    font-size: 18px !important;
     color:#FF2761;
+    font-weight: 600;
+    margin-bottom: 1px;
+ 
 }
 .card-text{
     font-size: 12px;
-    
+    margin-bottom: 5px;
 }
 
 .smallbutton{
@@ -118,7 +160,7 @@
     border-radius: 5px !important;
 }
 .card-img-top {
-    border-radius: 20px 20px 0px 0px!important;
+    border-radius: 10px 10px 0px 0px!important;
     height: 160px;
     object-fit: cover; 
 }
@@ -128,8 +170,14 @@
 
 
 /* today's discount */
-.discountbg{
+/* .discountbg{
     background-color: #F8F8F8 !important;
+}
+.discount-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+    padding-top: 40px!important;
+    padding-bottom: 60px;
 }
 .discount{
     text-align: center;
@@ -146,25 +194,29 @@
     color: #1C1C1C;
     font-size: 16px;
 
- }
+ } */
  .bigcard{
-    border-radius: 30px !important;
-   
-   
+    
+    border-radius: 10px !important;
+    border: none!important;
  }
  .bigcard:hover{
-    border-radius: 30px !important;
+    border-radius: 10px !important;
     box-shadow: 100px!important;
     box-shadow: 0px 2px 8px 3px #959595!important ;
  }
+ .bigpic{
+    border-radius: 10px !important;
+}
  .bigcardtitle-1{ 
-    font-size: 18px !important;
+    font-size: 16px !important;
     font-weight: 700;
     color:#1C1C1C ;
 }
  .bigcardtitle-2{ 
-    font-size: 18px !important;
+    font-size: 20px !important;
     color:#FF2761 !important ;
+    font-weight: 600;
 }
 .bigcardtext{
     font-size: 14px;
@@ -185,7 +237,7 @@
 }
 .bigpic {
     border-radius: 20px 20px 0px 0px!important;
-    height: 220px;
+    height: 260px!important;
     object-fit: cover; 
 }
 
@@ -199,7 +251,7 @@
 .topdish{
     text-align: center;
     font-size: 28px;
-    color:#CC1F4E;
+    color:#FF2761 ;
     font-weight: 700;
 }
 .title{
@@ -220,17 +272,19 @@
 
 
 /* reservation */
-.reservationbg{
-    background-color:  #F8F8F8 ;
-    height: 250px; 
+.reserve-bg{
+    background-color: white ;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 90px!important;
+    margin-bottom: 90px;
 }
-.reservation-img{
-   
-    height: 150px; 
-    width:750px 
+.reserve-frame{
+    background-image: url("reserve.png");
+    height: 170px; 
+    width:750px;
+    border-radius:20px;
 }
 .reserve-title{
     font-size: 30px;
@@ -246,6 +300,19 @@
 /* reservation */
 
 /* About us */
+.about-row{
+    margin-top: 90px!important;
+    margin-bottom: 90px;
+}
+.about-img{
+    margin-top: 90px!important;
+    margin-bottom: 90px;
+    margin-left: 90px;
+}
+.about-text{
+    margin-left: 100px;
+    /* margin-right: 50px; */
+}
 .about-us{
     color: #00AA00;
     font-size: 14px;
@@ -267,6 +334,17 @@
 .reviewbg{
     background-color:white;
 
+}
+.review-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+    margin-top: 10px!important;
+    margin-bottom: 40px!important;
+}
+.review-cardrow{
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+    padding-bottom: 60px;
 }
 .review-card:hover{
     border-radius: 20px !important;
@@ -317,6 +395,10 @@
 .blogbg{
     background-color:white;
 }
+.blog-row{
+    margin-right: 90px!important;
+    margin-left: 90px!important;
+}
 .blogm-1{
     font-size: 28px;
     font-weight: 700;  
@@ -329,8 +411,9 @@
 
 }
 .blogimg-1{
-    height: 200px !important;
-    width:200px!important;
+    border-radius: 50%;
+    height: 250px !important;
+    width:250px!important;
     padding-left: 15px;
     margin: 25px;
 }
@@ -355,9 +438,10 @@
     background-repeat: no-repeat;
     background-size:cover;
     height: 300px !important;
-    margin-right: 20px!important;
-    margin-left:20px !important;
-    
+    margin-right: 50px!important;
+    margin-left:100px !important;
+    margin-top: 100px!important;
+    margin-bottom: 100px!important;
     border-radius:20px;
 
 }
@@ -374,16 +458,32 @@
 #outlinebutton-reserve{
     color:#DBEED3;
     border: 1px solid white !important;
-    width:100px!important
+}
+.cta-button1{
+    /* padding-left: 20px!important; */
+    padding-right: 50px!important;
 }
 /* contact us */
 
 /* Footer */
 
-.newsletter{
-    border-bottom:1px solid #595959 !important;
-    padding: 50px !important;
+/* footer*/
+.footerbg{
+    border-top:1px solid #D9D9D9 !important;
+    background-color: white;
 }
+.newsletter{
+    border-bottom:1px solid #D9D9D9!important;
+    margin-left: 130px !important;
+    margin-right: 100px !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+/* .newsletter-col{
+    margin-left:120px!important;
+    margin-right: 60px;
+} */
 .newsletter-title{
     font-size: 20px;
     color: #1C1C1C;
@@ -412,7 +512,11 @@
 .card{
     box-shadow: 1px !important;
 }
-
-
-/* Footer */
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/
 

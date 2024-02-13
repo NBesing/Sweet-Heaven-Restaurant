@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+.orderpage{
+    color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.nav-link{
+    font-size: 16px !important;
+    color:#1C1C1C !important;
+   
+}
+.nav-row{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+}
+.nav-link :hover{
+    font-size: 16px;
+    color:#00AA00 !important;
+    font-weight: 700!important;
+}
+#secondarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#FF2761 ;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 35px!important;
+
+}
+/* header */
+
+
+/* order summary */
+.order-bg{
+    background-image: url("order_reserve_summary.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.order-row{
+    padding-top: 80px!important;
+    padding-bottom: 80px!important;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+}
+/* today-menu */
+#primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00!important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    width: 110px!important;
+}
+.food-img{
+    border-radius: 10px 10px 0px 0px!important;
+    height: 140px; 
+    object-fit: cover;
+
+}
+.food-details{
+    margin-right: -5px!important;
+    color: white;
+}
+.food-price{
+    padding-bottom: 10px!important;
+}
+.food1{
+    margin-left: -10px!important;
+}
+.food2{
+    margin-right: -20px!important;
+}
+.food22{
+    margin-right: -10px!important;
+}
+.add-amount {
+    margin-left: -15px!important;
+    
+}
+.add-dish{
+    border-top: 1px solid #D9D9D9;
+    margin-top: 20px!important;
+    padding-top: 10px;
+    margin-right: -1opx!important;
+}    
+   
+
+
+/* order summary */
+
+/* order form */
+.order-form{
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.label-text{
+    font-size: 16px !important;
+}
+.placeholder-text{
+    font-size: 14px;
+    color: #595959 !important;
+    background-color: #F8F8F8;
+}
+.primarybutton{
+    /* padding: 10px; */
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    border:none!important;
+    width: 430px;
+    
+}
+/* order form */
+
+
+
+
+
+/* footer*/
+.footerbg{
+    border-top:1px solid #D9D9D9 !important;
+    background-color: white;
+}
+.newsletter{
+    border-bottom:1px solid #D9D9D9!important;
+    margin-left: 130px !important;
+    margin-right: 100px !important;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+/* .newsletter-col{
+    margin-left:120px!important;
+    margin-right: 60px;
+} */
+.newsletter-title{
+    font-size: 20px;
+    color: #1C1C1C;
+    font-weight: 600;
+    text-align: left !important;
+    padding-top: 10px !important;
+}
+.newsletter-text{
+    font-size: 16px;
+    color: #1C1C1C;
+    text-align: left !important;
+}
+.email-input{
+    height:35px !important;
+    width: 300px !important;
+}
+.h8{
+    font-size: 16px ;
+    color: #00AA00;
+
+}
+.footer-text{
+    font-size: 14px! important;
+    color: #1C1C1C;
+}
+.card{
+    box-shadow: 1px !important;
+}
+.bigbutton{
+    color:white;
+    background-color:#00AA00 !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+}
+/* footer*/

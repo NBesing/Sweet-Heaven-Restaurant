@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 /* header */
+.nav-row{
+    margin-left: 80px!important;
+    margin-right: 100px!important;
+
+}
 .nav-link{
     font-size: 16px !important;
     color:#1C1C1C !important;
@@ -38,8 +43,9 @@
 }
 .food-card{
     
-    margin-right: 30px!important;
-    margin-left: 30px !important;
+    margin-left: 140px!important;
+    margin-right: 140px!important;
+
     border-radius:35px;
     padding-bottom:25px
 }
@@ -47,6 +53,10 @@
 
 
 /* suggested pairings */
+.pairing-row{
+    margin-left: 60px!important;
+    margin-right: 90px!important;
+}
 .food-name{
     color: #1C1C1C !important;
     font-size: 24px !important;
@@ -62,6 +72,13 @@
     font-size: 16px;
     padding-top: 20px!important;
 }
+.add-amount {
+    margin-left: -20px!important;
+}
+.addcart-button{
+    margin-left: -50px!important;
+}
+
 #primarybutton{
     /* padding: 10px; */
     color:white;
@@ -101,31 +118,48 @@
    ;
 }
 
-/* .dishes{
+/* suggested pairings */
+.dishes{
   background-color: #F8F8F8;  
-} */
+  padding-bottom: 40px!important;
+}
+
 
 .card{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
+    
 
 }
 .card:hover{
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     box-shadow: 0px 2px 8px 3px #5b5b5b!important ;
 
 }
+.smallpic{
+    height: 217px!important;
+    object-fit: cover;
+}
+
 .card-title-1{ 
     font-size: 14px !important;
     font-weight: 700;
     color:#1C1C1C ;
+    width: 100% !important;
+    margin-top: -10px!important;
+    margin-bottom: 1px;
+ 
 }
+
 .card-title-2{ 
-    font-size: 14px !important;
+    font-size: 18px !important;
     color:#FF2761;
+    font-weight: 600;
+    margin-bottom: 1px;
+ 
 }
 .card-text{
     font-size: 12px;
-    
+    margin-bottom: 5px;
 }
 
 .smallbutton{
@@ -141,11 +175,16 @@
     border-radius: 5px !important;
 }
 
+
 /* suggested pairings */
 
 /* review */
 .review{
     border-top:1px solid #FF2761 !important;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
 }
 
 .separator{
@@ -155,6 +194,7 @@
 .review-heading{
     
     font-size: 24px;
+    font-weight: 700;
     
 }
 .avatar{
@@ -204,6 +244,7 @@
 .tip-title{
     font-size: 18px !important;
     font-weight: 700;
+    color: #FF2761;
 }
 .tip-text{
     font-size: 14px;
@@ -216,6 +257,10 @@
     background-repeat: no-repeat;
     background-size:cover;
     
+}
+.leaverev-row{
+    margin-left: 100px!important;
+    margin-right: 100px!important;
 }
 .leavereview-title{
     font-size: 30px;
@@ -256,6 +301,8 @@
 .newsletter{
     border-bottom:1px solid #595959 !important;
     padding: 50px !important;
+    margin-left: 100px!important;
+    margin-right: 100px!important;
 }
 .newsletter-title{
     font-size: 20px;

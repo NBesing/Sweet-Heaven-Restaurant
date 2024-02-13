@@ -8,7 +8,7 @@
 /* header */
 .nav-link{
     font-size: 16px !important;
-    color:#1C1C1C !important;
+    color:white!important;
    
 }
 .nav-link :hover{
@@ -48,21 +48,27 @@
 
 /* contact us hero */
 .contact-bg{
-    background-image: url("hero-bg.png");
+    background-image: url("about_contact_blog-bg.png");
     background-repeat: no-repeat;
     background-size:cover;
-    height: 400px;
+    height: 450px;
    
+}
+.contact-row{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
+}
+.text{
+    margin-top: -80px !important;
 }
 .title{
     color: #00AA00;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 80px !important;
-   
+    margin-top: -80px !important;
 }
 .subtitle{
-    color:white;
+    color: white!important;
     font-size: 16px;
 }
 /* contact us hero */
@@ -72,17 +78,25 @@
     background-color: #E6F5E6;
     height: 600px !important;
     border-radius: 20px;
-    margin-right: 40px !important;
-    margin-left: 40px!important;
+    margin-left: 120px!important;
+    margin-right: 120px!important;
+}
+.row-contact{
+    margin-left: 80px!important;
+    margin-right: 80px!important;
 }
 
-
 /* contact us form */
-
+/* .contact-img{
+    height: 500px;
+} */
 /* contacts */
 .contacts{
     background-color: #F8F8F8;
+    /* margin-bottom: -80px!important;
+    margin-top: -80px!important; */
 }
+
 .contacttitle{
     color: #1C1C1C; 
     font-size: 18px; 
